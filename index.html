@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java-script_3</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <h1>Dark Mood test</h1>
+    <div class="checkbox-wrapper-14" style="text-align: end;">
+        <input id="s1-14" type="checkbox" class="switch">
+        <label for="s1-14">Dark Mood On</label>
+      </div>
+
+      <!-- cart -->
+    <div style="margin-top:  100px; text-align: center;">
+        <h1>Cart</h1>
+        <h2>Simple Shopping Cart</h2>
+
+  <div id="cart">
+    <p>Cart: <span id="cart-count">0</span></p>
+    <button onclick="addToCart()">+</button>
+    <button onclick="removeFromCart()">-</button>
+  </div>
+    </div>
+
+
+    <!-- renage section -->
+
+    <div style="text-align: center;">
+      <h1>Range</h1>
+
+      <!-- <div id="range">
+        <form action="">
+          <input type="range" name="" id="" >
+        </form>
+      </div> -->
+
+      <div class="range"><input type="range" value="100" min="0" max="100" oninput="rangeValue.innerText = this.value"><h2 id="rangeValue">0</h2></div> 
+   
+
+    </div>
+
+
+
+    <!-- js link -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
